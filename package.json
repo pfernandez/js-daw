@@ -1,28 +1,33 @@
 {
-  "name": "electron-quick-start",
+  "name": "js-daw",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Join forces, musical JavaScripters.",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/pfernandez/js-daw.git"
   },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "daw",
+    "js",
+    "music"
   ],
-  "author": "GitHub",
+  "author": "Paul Fernandez",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/pfernandez/js-daw/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/pfernandez/js-daw#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
-  }
+  },
+	"dependencies": {
+		"ractive": "^0.7.3",
+		"fs": "^0.0.2",
+		"glob": "^6.0.3"
+	}
 }
